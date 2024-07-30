@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url(fundo-de-papel-de-parede-colorido-embacado-artistico_58702-8342.avif);
+            text-align: center;
+            margin-top: 130px;
+            background-size: 140%; 
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .login-box {
+            margin-top: 100px;
+            width: 300px;
+            margin: auto;
+            background: linear-gradient(to bottom right, #60478a, #054a7e);
+            padding: 40px;
+            border-radius: 5px;
+            box-shadow: 0 0 20px rgb(0, 17, 255);
+        }
+        .login-box input[type="text"],
+        .login-box input[type="password"] {
+            width: calc(100% - 20px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+        .login-box input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+        .login-box input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+<body>
+
+
+
+<div class="login-box">
+        <h2>Login</h2>
+        <form action="login.html" method="post">
+            <input type="text" name="username" placeholder="Usuário" required><br>
+            <input type="password" name="password" placeholder="Senha" required><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>
